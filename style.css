@@ -59,7 +59,7 @@ h2 a {
 }
 
 .container {
-    text-align: left;
+    text-align: center;
     overflow: hidden;
     width: 80%;
     margin: 0 auto;
@@ -110,6 +110,31 @@ h2 a {
   transition-timing-function: line;
 }
 
+button {
+    margin: 20px;
+}
+
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.w-btn:active {
+    transform: scale(1.5);
+}
+.w-btn:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
 @media (max-width: 800px) {
 .container td:nth-child(4),
 .container th:nth-child(4) { display: none; }
